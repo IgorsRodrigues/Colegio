@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Disciplina</title>
-    <style>
-    #menu ul{
-		margin 0;
-        background-color: #0000ff;
-        list-style: none;
-	}
-
-	#menu ul li{
-        display: inline;
-	}
-
-	#menu ul li a{
-        padding: 10px 10px;
-        display inline-block;
-        color: white;
-        text-decoration: none;
-        text-align: center;
-        font-family: arial;
-    }
-    
-    #menu ul li a:hover{
-        color:#ffff66;
-    }
-    
-    
-    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-</head>
-<body>
-    <div id = "menu">
+    
+    <nav class="menu">
         <ul>
-            <li><a href="index.html">HOME PAGE</a></li>
-            <li><a href="lista_curso.html">LISTA DE CURSOS</a></li>
-            <li><a href="detalhe_curso.html">DETALHE DE CURSO</a></li>
-            <li><a href="disciplina.html">DISCIPLINA</a></li>
-            <li><a href="noticias.html">NOTÍCIAS</a></li>
+            <li>HOME PAGE</li>
+            <li>LISTA DE CURSOS
+                <ul>
+                        <li>HTML E CSS</li>
+                        <li>BANCO DE DADOS</li>
+                        <li>ANÁLISE DE SISTEMAS</li>
+                        <li>JAVA</li>
+                        <li>ORACLE DB</li>
+                        <li>MACHINE LEARNING</li>
+                </ul>    
+            </li>
+            <li>DETALHE DE CURSO</li>
+            <li>DISCIPLINA
+                <ul>
+                    <li>DEVOPS</li>
+                    <li>IOT</li>
+                    <li>HARDWARE</li>
+                    <li>PROGRAMAÇÃO</li>
+                    <li>SQL AVANÇADO</li>
+                    <li>PYTHON</li>
+                </ul>    
+            </li>
+            <li>NOTÍCIAS</li>
+
+
+
         </ul>
 
-    </div>
+
+    </nav>
+  
 </body>
 </html>
